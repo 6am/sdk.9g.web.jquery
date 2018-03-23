@@ -1,0 +1,24 @@
+.slidePanel {
+    width:800px;
+    background:#F0F0F0;
+    z-index:9090;
+    box-shadow: 8px 0 30px 5px rgba(0,0,0,.2);
+}
+
+
+.bg-fixed-header {
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+}
+.bg-fixed-footer {
+    width:100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+
+.scroll {
+    overflow-y: scroll;
+}

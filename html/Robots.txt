@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /_temp/
+Disallow: /controllers/
+Disallow: /ngc/
+Disallow: /_design/
+Disallow: /_data/
+Disallow: /cache/
+
+
+
+
+
+
+
