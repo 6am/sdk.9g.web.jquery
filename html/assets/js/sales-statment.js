@@ -2,6 +2,8 @@
 $(document).ready(function() {
     // Select2
     $('.sales-statment-select2').select2();
+    //Date Pickers
+    $('#datepicker-start, #datepicker-end').datepicker();
 
     // Initialize datatable showing a search box at the top right corner
     var initTableWithSearch = function() {
@@ -29,4 +31,3 @@ $(document).ready(function() {
 
 
 });
-

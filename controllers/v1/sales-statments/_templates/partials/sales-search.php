@@ -7,10 +7,12 @@
             <div class="col-lg-9 pull-right">
                 <form role="form">
                     <div class="form-group  input-daterange input-group" id="datepicker-range">
-                        <input type="text" class="input-sm form-control col-lg-3 " name="start"/><span
-                                class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                        <input type="text" class="input-sm form-control m-l-5 col-lg-3 " name="end"/><span
-                                class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                        <div id="datepicker-start" class="input-group date p-l-0 col-lg-3">
+                            <input type="text" class="form-control  m-r-5 p-r-0" name="start"><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                        </div>
+                        <div id="datepicker-end" class="input-group date p-l-0 col-lg-3">
+                            <input type="text" class="form-control  m-r-5 p-r-0" name="end"><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                        </div>
                         <div class="m-r-5 m-l-5">
                             <select class="sales-statment-select2" data-init-plugin="select2">
                                 <optgroup label="Alaskan/Hawaiian Time Zone">

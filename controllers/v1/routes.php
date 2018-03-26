@@ -3,11 +3,15 @@
     $route->respond("GET","/", function ($request, $response, $service) {
         $globals = add_javascript(
             array(
+                '/html/vendors/nvd3/lib/d3.v3.js',
+                '/html/vendors/nvd3/nv.d3.min.js',
+                '/html/assets/js/home.js'
             )
         );
 
         $globals = add_css(
             array(
+                '/html/vendors/nvd3/nv.d3.min.css'
             )
         );
 
