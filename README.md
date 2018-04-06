@@ -18,13 +18,13 @@ README.md
 ```
 
 ###Creating an virtual host
-#####Linux
+###Linux
 [https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts](#)
 
-#####Windows
+###Windows
 [https://stackoverflow.com/questions/2658173/setup-apache-virtualhost-windows](#)
 
-#####MAC
+###MAC
 [https://coolestguidesontheplanet.com/set-virtual-hosts-apache-mac-osx-10-9-mavericks-osx-10-8-mountain-lion/](#)
 
 Then start the server
