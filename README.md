@@ -3,17 +3,15 @@
 Put all the files in one folder, configure a virtual host to that folder.
 
 ```
+_cache
 _data
 _design
 _temp
-cache
 controllers
-html
-ngc
+languages
+public
 .gitignore
-.htaccess
 config.php
-index.php
 README.md
 ```
 

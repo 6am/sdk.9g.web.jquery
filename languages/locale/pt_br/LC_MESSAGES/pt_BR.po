@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-09-19 22:11-0300\n"
+"PO-Revision-Date: 2018-10-04 18:51-0300\n"
+"Last-Translator: Bruno <bruno@bgo.ms>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+
+# LANGUAGE MENU
+msgid "United States"
+msgstr "Brasil"
+
+# LOCALES AND COUNTRY
+# North America
+msgid "North America"
+msgstr "América do Norte"
+
+msgid "Canada"
+msgstr "Canadá"
+
+msgid "US"
+msgstr "EUA"
+
+# Latin America
+msgid "Latin America"
+msgstr "América latina"
+
+msgid "Argentina"
+msgstr "Argentina"
+
+msgid "Brazil"
+msgstr "Brasil"
+
+msgid "Colombia"
+msgstr "Colômbia"
+
+msgid "Mexico"
+msgstr "México"
+
+# Europe, the Middle East and Africa
+msgid "Europe, the Middle East and Africa"
+msgstr "Europa, Oriente Médio e África"
+
+msgid "Austria"
+msgstr "Áustria"
+
+msgid "Belgium"
+msgstr "Bélgica"
+
+msgid "Bulgaria"
+msgstr "Bulgária"
+
+msgid "Croatia"
+msgstr "Croácia"
+
+msgid "Czech Republic"
+msgstr "República Checa"
+
+msgid "Denmark"
+msgstr "Dinamarca"
+
+msgid "Dubai"
+msgstr "Dubai"
+
+msgid "Estonia"
+msgstr "Estônia"
+
+msgid "Finland"
+msgstr "Finlândia"
+
+msgid "France"
+msgstr "França"
+
+msgid "Germany"
+msgstr "Alemanha"
+
+msgid "Greece"
+msgstr "Grécia"
+
+msgid "Hungary"
+msgstr "Hungria"
+
+msgid "Ireland"
+msgstr "Irlanda"
+
+msgid "Israel"
+msgstr "Israel"
+
+msgid "Italy"
+msgstr "Itália"
+
+msgid "Latvia"
+msgstr "Letônia"
+
+msgid "Lithuania"
+msgstr "Lituânia"
+
+msgid "Netherlands"
+msgstr "Países Baixos"
+
+msgid "Norway"
+msgstr "Noruega"
+
+msgid "Poland"
+msgstr "Polônia"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Romania"
+msgstr "Roménia"
+
+msgid "Russia"
+msgstr "Rússia"
+
+msgid "Slovakia"
+msgstr "Eslováquia"
+
+msgid "South Africa"
+msgstr "África do Sul"
+
+msgid "Spain"
+msgstr "Espanha"
+
+msgid "Sweden"
+msgstr "Suécia"
+
+msgid "Switzerland"
+msgstr "Suíça"
+
+msgid "Turkey"
+msgstr "Peru"
+
+msgid "United Kingdom"
+msgstr "Reino Unido"
+
+# Asia Pacific
+msgid "Asia Pacific"
+msgstr "Ásia-Pacífico"
+
+msgid "Australia"
+msgstr "Austrália"
+
+msgid "China"
+msgstr "China"
+
+msgid "Hong-Kong"
+msgstr "Hong Kong"
+
+msgid "India"
+msgstr "Índia"
+
+msgid "Indonesia"
+msgstr "Indonésia"
+
+msgid "Japan"
+msgstr "Japão"
+
+msgid "Malaysia"
+msgstr "Malásia"
+
+msgid "New Zealand"
+msgstr "Nova Zelândia"
+
+msgid "Philippines"
+msgstr "Filipinas"
+
+msgid "Singapore"
+msgstr "Cingapura"
+
+msgid "South Korea"
+msgstr "Coreia do Sul"
+
+msgid "Taiwan"
+msgstr "Taiwan"
+
+msgid "Thailand"
+msgstr "Tailândia"
+
+# MENU
+msgid "Home"
+msgstr "Home"
+
+msgid "About us"
+msgstr "Sobre"
+
+msgid "Who we are"
+msgstr "Quem nós somos"
+
+msgid "Services"
+msgstr "Serviços"
+
+msgid "TRY IT NOW"
+msgstr "TENTE AGORA"
+
+# HEADER
+msgid "The success of your business depends on your choice"
+msgstr "O sucesso do seu negócio depende da sua escolha"
+
+msgid "The best solutions for hiring, maintenance and human development."
+msgstr "As melhores soluções para contratação, manutenção e desenvolvimento humano."
+
+# ACTION BOX 1
+msgid "The Best Tools for Your Business Success"
+msgstr "As melhores ferramentas para o sucesso do seu negócio"
+
+msgid "Purchase Now"
+msgstr "Compre agora"
+
+# ABOUT
+msgid "With the right tool, everything gets easier"
+msgstr "Com a ferramenta certa, tudo fica mais fácil"
+
+msgid "Human capital is the largest asset of a company and its decisions about it directly impact on various aspects of your business:"
+msgstr "O capital humano é o maior patrimônio de uma empresa e suas decisões sobre ele impactam diretamente em vários aspectos do seu negócio:"
+
+msgid "Rotativity"
+msgstr "Rotatividade"
+
+msgid "Reduce turnover by making sure the correspondence between the professional and the job open."
+msgstr "Reduza o volume de negócios assegurando a correspondência entre o profissional e o trabalho aberto."
+
+msgid "Retaining talent"
+msgstr "Retenção de talentos"
+
+msgid "Improve job satisfaction, avoid burnout and learn how to motivate your team."
+msgstr "Melhore a satisfação no trabalho, evite o desgaste e aprenda como motivar sua equipe."
+
+msgid "Process optimization"
+msgstr "Processo otimizado"
+
+msgid "Increase efficiency by identifying the best candidates and avoid unnecessary costs with turnover"
+msgstr "Aumente a eficiência identificando os melhores candidatos e evite custos desnecessários com a rotatividade"
+
+msgid "Revenue increase"
+msgstr "Aumento de receita"
+
+msgid "Hire and develop people with high performance who will drive your bottom line"
+msgstr "Contrate e desenvolva pessoas com alto desempenho que conduzirão seus resultados"
+
+msgid "Improved efficiency"
+msgstr "Melhor eficiência"
+
+msgid "Maintain a high performance team by understanding each profile."
+msgstr "Manter uma equipe de alto desempenho, compreendendo cada perfil."
+
+msgid "Leadership Building"
+msgstr "Edifício de Liderança"
+
+msgid "Make sure the right people are in the key positions for effective leadership"
+msgstr "Certifique-se de que as pessoas certas estejam nas posições-chave para uma liderança eficaz"
+
+msgid "+ 53 million of people"
+msgstr "+ 53 milhões de pessoas"
+
+msgid "Used for more than 38 years in more than 75 countries, DiSC is the most widely used tool in the world. It aims to increase people's understanding of their own behavior and of others."
+msgstr "Utilizado há mais de 38 anos em mais de 75 países, o DiSC é a ferramenta mais usada no mundo. O objetivo é aumentar a compreensão das pessoas sobre seu próprio comportamento e sobre os outros."
+
+msgid "+ 42 COUNTRIES"
+msgstr "+ 42 PAÍSES"
+
+msgid "Developed by psychologists, ASSESS has evaluated millions of people in different industries and positions, providing a comprehensive report on personality traits and characteristics that can impact an individual's performance in a given role."
+msgstr "Desenvolvido por psicólogos, o ASSESS avaliou milhões de pessoas em diferentes setores e posições, fornecendo um relatório abrangente sobre traços de personalidade e características que podem afetar o desempenho de um indivíduo em um determinado papel."
+
+msgid "The best investment of your company is your team"
+msgstr "O melhor investimento da sua empresa é a sua equipe"
+
+msgid "Humans Solutions is a technology company specializing in providing tools and solutions that work on human capital. With its own tools, it provides solutions for hiring, evaluating and developing people."
+msgstr "A Humans Solutions é uma empresa de tecnologia especializada no fornecimento de ferramentas e soluções que trabalham com capital humano. Com suas próprias ferramentas, fornece soluções para contratar, avaliar e desenvolver pessoas."
+
+msgid "Contact"
+msgstr "Contato"
+
+msgid "Either way, it’s governed by who you think you are and what circumstances you accept as appropriate for you."
+msgstr "De qualquer maneira, é governado por quem você pensa que é e quais circunstâncias você aceita como apropriado para você."
+
+msgid "Name*"
+msgstr "Nome*"
+
+msgid "Email*"
+msgstr "E-email*"
+
+msgid "Telephone*"
+msgstr "Telefone*"
+
+msgid "Message*"
+msgstr "Mensagem*"
+
+msgid "SUBMIT"
+msgstr "ENVIAR"
+
+msgid "Terms & Conditions"
+msgstr "Termos & Condições"
+
+msgid "API Use Policy"
+msgstr "Política de uso de API"
+
+msgid "Privacy Policy "
+msgstr "Política de Privacidade "
+
+msgid "© Copyright 2018 Humans Solutions All rights reserved"
+msgstr "© Copyright 2018 Humans Solutions Todos os direitos reservados"
+
+msgid "top"
+msgstr "topo"

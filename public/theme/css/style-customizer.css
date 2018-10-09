@@ -1,0 +1,19 @@
+.box-shadow:hover {
+    box-shadow: 0 0px 30px rgba(0,0,0,0.09) !important;
+}
+.feature-text.box-shadow {
+    box-shadow: 0 0px 30px rgba(0,0,0,0.0);
+    padding: 40px;
+	cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+}
+
+
+.button.icon.btn.text-dark:hover {
+	color: #f7c605 !important;
+}

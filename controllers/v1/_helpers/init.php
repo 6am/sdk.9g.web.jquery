@@ -6,7 +6,7 @@
 	if (class_exists('NGCloud')) $NGCloud = new NGCloud;
 
 	//GRAB NGC SETTINGS
-	$settingsfile =  @ fopen("config.php","r");
+	$settingsfile =  @ fopen(ROOT."/config.php","r");
 	if($settingsfile){
 		//loop through the settings file and load variables into the session 
 		while( !feof($settingsfile)) {
@@ -29,7 +29,9 @@
 		@ fclose($settingsfile);
 	}
 
-	include_once(DIR ."/_helpers/session.php");
+//	include_once(DIR ."/_helpers/session.php");
 	include_once(DIR ."/_helpers/includes.php");
+
+    include_once(DIR . "/_helpers/common_functions.php");
 
 ?>

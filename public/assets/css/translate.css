@@ -1,0 +1,156 @@
+.translate {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, .95);
+    z-index: 9;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    transition: .8s;
+    z-index: 9999;
+
+    font-size: 14px;
+}
+
+.translate-color {
+    background: rgba(255, 255, 255, .95);
+}
+
+.translate .area-scroll {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    height: calc(100% - 220px);
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.translate h2. {
+    margin-bottom: 20px!important;
+    /*color: #fdc130;*/
+}
+
+/*.translate h2.::after {
+    display: block;
+    content: ' ';
+    width: 80px;
+    height: 4px;
+    background: #fdc130;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}*/
+
+.translate ul {
+    display: block;
+    float: left;
+    width: 100%;
+    list-style: none!important;
+    margin-bottom: 50px;
+}
+
+.translate ul li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.translate ul ul {
+    margin-bottom: 10px;
+}
+
+.translate ul ul li {
+    display: block;
+    float: left;
+    width: auto!important;
+}
+
+.translate ul a {
+    padding-right: 10px;
+    font-size: 1.4em;
+    /*color: #fdc130;*/
+}
+
+.translate ul a:hover {
+    text-decoration: underline;
+}
+
+.translate ul ul a {
+    font-size: 1.1em;
+    font-weight: 200;
+    color: #000;
+}
+
+.translate ul li:after {
+    display: none!important;
+}
+
+#countries {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#locations {
+    z-index: 2;
+}
+
+.icon-rotate {
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+#locations {
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.rotai {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.menu-logo{
+    position: absolute;
+    z-index: 100000;
+
+}
+
+.menu-logo .divide{
+    display: block;
+    width: 1px;
+    height: 48px;
+    background: #00000021;
+    margin: 0 20px 0 22px;
+
+}
+
+.mobileTopFixed .menu-logo .divide {
+    position: relative;
+    height: 38px;
+    top: 12px;
+}
+
+.mobileTopFixed #countries {
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    top: 6px;
+}
+

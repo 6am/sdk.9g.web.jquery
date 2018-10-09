@@ -1,0 +1,46 @@
+{
+  "id":"",
+  "parentid":"0",
+  "title":"",
+  "alias":"",
+  "picture":null,
+  "typeid":"0",
+  "videoid":null,
+  "memo":"",
+  "includesfooter":"",
+  "includestop":"",
+  "displayorder":"0",
+  "creationdate":"0000-00-00 00:00:00",
+  "hits":"5",
+  "url":"",
+  "author":null,
+  "photos":[
+
+  ],
+  "childs":[
+
+  ],
+  "seo":[
+
+  ],
+  "site":{
+    "id":"1",
+    "name":"",
+    "domain":""
+  },
+  "tags":[
+
+  ],
+  "prev":{
+    "title":""
+  },
+  "next":{
+    "title":"",
+    "alias":""
+  },
+  "comments":null,
+  "likes":{
+    "liked":0,
+    "total":0
+  }
+}

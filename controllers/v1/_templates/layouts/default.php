@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <?php echo $this->partial( DIR .'/_templates/partials/header.php'); ?>
-    </head>
-    <body class="fixed-header horizontal-menu horizontal-app-menu dashboard">
-        <div class="header p-r-0 bg-primary">
-            <?php
-                echo $this->partial( DIR .'/_templates/partials/top-bar.php');
-            ?>
-        </div>
-        <div class="page-container">
-            <section id="content" class="animated fadeIn">
-                <?php echo $this->partial($this->PartialType);?>
-            </section>
-        </div>
-        <footer>
-            <?php echo $this->partial( DIR .'/_templates/partials/footer.php'); ?>
-        </footer>
+	<!--================================= 
+	head -->
+    <?php echo $this->partial( DIR .'/_templates/partials/head.php'); ?>
+	<!--================================= 
+	head -->
+	
+	<body>
+	<div class="wrapper">
+	<!-- wrapper start -->
+
+	<!--================================= preloader -->
+    <?php echo $this->partial( DIR .'/_templates/partials/preloader.php'); ?>
+	<!--=================================
+	 preloader -->
+
+	<!--=================================
+	 header -->
+    <?php echo $this->partial( DIR .'/_templates/partials/header.php'); ?>
+	<!--=================================
+	 header -->
+
+	<?php echo $this->partial($this->PartialType);?>
+
+	<!--=================================
+	 footer -->
+		<?php echo $this->partial( DIR .'/_templates/partials/footer.php'); ?>
+	<!--=================================
+	 footer -->
+
+	</div>
+	<!-- wrapper End -->
+
+	<div id="back-to-top">
+        <a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span><?php echo _('top');?></span></a>
+    </div>
+
+	<!--=================================
+	 javascripts -->
+	<?php echo $this->partial( DIR .'/_templates/partials/scripts.php'); ?>
+
+	
     </body>
 </html>
