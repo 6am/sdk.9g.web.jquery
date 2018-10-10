@@ -119,26 +119,26 @@ For each individual section in our home page we call an partial file, let look i
         <div class="social-user-profile col-xs-height text-center col-top">
             <div class="thumbnail-wrapper d48 circular bordered b-white">
                 <img alt="Avatar" width="55" height="55"
-                     data-src-retina="http://membros.vitafine.com.br/commons/attachments/clients/2017/09/thumb/763ab9e85910623cbed8c5355884dc45.jpg"
-                     data-src="http://membros.vitafine.com.br/commons/attachments/clients/2017/09/thumb/763ab9e85910623cbed8c5355884dc45.jpg"
-                     src="http://membros.vitafine.com.br/commons/attachments/clients/2017/09/thumb/763ab9e85910623cbed8c5355884dc45.jpg">
+                     data-src-retina="http://example.local/thumb/763ab9e85910623cbed8c5355884dc45.jpg"
+                     data-src="http://example.local/thumb/763ab9e85910623cbed8c5355884dc45.jpg"
+                     src="http://example.local/thumb/763ab9e85910623cbed8c5355884dc45.jpg">
             </div>
             <br>
 
             <p>
                 <img src="/html/assets/midias/images/icons/badge.png"
                      alt="" width="20" data-toggle="tooltip"
-                     data-placement="bottom" title="Membro Titan">
+                     data-placement="bottom" title="">
                 <i class="fa fa-diamond text-success fs-14"
                    data-toggle="tooltip" data-placement="bottom"
-                   title="Membro Diamond Club"></i>
+                   title=""></i>
             </p>
 
 
         </div>
         <div class="col-xs-height p-l-20">
             <h3 class="no-margin p-b-5">John Doe</h3>
-            <p class="no-margin fs-16">Viva a vida Vitafine!
+            <p class="no-margin fs-16">Lorem ipsum
             </p>
 
         </div>

@@ -651,7 +651,7 @@ function getEmailTemplate($id) {
 
 }
 
-function sendEmailTemplate($message,$therecord,$msg,$fromemail="comunicados@slacoaching.com.br",$silent=false) {
+function sendEmailTemplate($message,$therecord,$msg,$fromemail="comunicados@9g.com.br",$silent=false) {
     global $db;
     if($message["inactive"]==1) {
         echo "envio dessa mensagem esta INATIVADA<br>";
@@ -676,50 +676,6 @@ function sendEmailTemplate($message,$therecord,$msg,$fromemail="comunicados@slac
 			";
             $insertquery = $db->query($insertstatement);
 
-
-            /*
-            include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/NGC.php");
-            $NGCloud= new NGCloud;
-            $data["emailid"]=$db->insertId();
-            $data['accesstoken'] = 'slacMAYCON10aioqc07ea8dd2e45be0';
-            $data['awskey'] = 'AKIAJUOW5OQ5X4CVUOGQ';
-            $data['awstoken'] = 'P4MN62732HBJ43nVw3Ch9vMsjYsJcMcGDW2nPePX';
-            $data['from'] = $fromemail;
-            $data['to'] = $therecord["toemail"];
-            $data['subject'] = utf8_encode($message["subject"]);
-            $data['body'] = (html_entity_decode($msg));
-            $data['trackingopens'] = "http://www.slacoaching.com.br/emailopens";
-            //$data['to'] = $therecord["toemail"];
-            
-            //$data['debug'] = '1';
-            
-            $result = json_decode($NGCloud->post('http://api.9g.com.br/v1/emails/ses', $data));
-            $data["awsid"]=$result->MessageId;
-            
-            $insertstatement="insert into emails_ses (`emailid`, `messageid`) VALUES ('".$data["emailid"]."','".$data["awsid"]."')";
-            $insertquery = $db->query($insertstatement);
-            
-            $upstatement="update emailstemplatesprocess set isposted=1, posteddate=now() where id=".$data["emailid"]."";
-                $updatequery = $db->query($upstatement);		
-            */
-
-            /*
-            if(@ mail($therecord["toemail"],$message["subject"],$msg,				
-                    "To: ".$therecord["toemail"]."\n" .
-                    "From:  ".$fromemail."<".$fromemail.">\n" .
-                    "MIME-Version: 1.0\n" .
-                    "Content-type: text/html; charset=UTF-8"
-            )) {
-                $upstatement="
-                    update emailtemplatesclients set counter=(counter+1), lastsent=now() where id=".$message["id"]."
-                ";
-                $updatequery = $db->query($upstatement);			
-                if(!$silent) echo $therecord["toname"] ." : ".$therecord["toemail"]." ENVIADO<br>";
-                
-            } else {
-                if(!$silent) echo $therecord["toname"] ." : ".$therecord["toemail"]." FALHA<br>";
-            }
-            */
         }
         if($message["istested"]==0) {
             //dont do anything else, since this is not authorized yet
@@ -731,7 +687,7 @@ function sendEmailTemplate($message,$therecord,$msg,$fromemail="comunicados@slac
 
 }
 
-function sendEmailTemplateLine($therecord,$msg,$fromemail="comunicados@slacoaching.com.br",$silent=false) {
+function sendEmailTemplateLine($therecord,$msg,$fromemail="comunicados@9g.com.br",$silent=false) {
     global $db;
 
     if(strlen($therecord["toemail"])>5) {
@@ -758,7 +714,7 @@ function sendEmailTemplateLine($therecord,$msg,$fromemail="comunicados@slacoachi
     return true;
 
 }
-function sendEmailLine($therecord,$msg,$fromemail="comunicados@slacoaching.com.br",$silent=false) {
+function sendEmailLine($therecord,$msg,$fromemail="comunicados@9g.com.br",$silent=false) {
     global $db;
 
     if(strlen($therecord["toemail"])>5) {
@@ -786,7 +742,7 @@ function sendEmailLine($therecord,$msg,$fromemail="comunicados@slacoaching.com.b
 
 }
 
-function addLetter($message,$therecord,$msg,$receivertabledefid=2,$fromemail="comunicados@slacoaching.com.br") {
+function addLetter($message,$therecord,$msg,$receivertabledefid=2,$fromemail="comunicados@9g.com.br") {
     global $db;
     if($message["inactive"]==1) {
         echo "envio dessa mensagem esta INATIVADA<br>";
@@ -1469,8 +1425,8 @@ function getClientPicture($id) {
             $picture = $file;
         } else if (strlen($fbookpic)>5) {
             $picture=$fbookpic;
-        } else if(@get_headers('http://www.slacoaching.com.br/commons/images/clients/' . $attchrecord['year'].'/' . str_pad($attchrecord['month'], 2, "0", STR_PAD_LEFT).'/thumb/' . $attchrecord['attname'])[0] != 'HTTP/1.1 404 Not Found'){
-            $picture='http://www.slacoaching.com.br/commons/images/clients/' . $attchrecord['year'].'/' . str_pad($attchrecord['month'], 2, "0", STR_PAD_LEFT).'/thumb/' . $attchrecord['attname'];
+        } else if(@get_headers('http://www.9g.com.br/commons/images/clients/' . $attchrecord['year'].'/' . str_pad($attchrecord['month'], 2, "0", STR_PAD_LEFT).'/thumb/' . $attchrecord['attname'])[0] != 'HTTP/1.1 404 Not Found'){
+            $picture='http://www.9g.com.br/commons/images/clients/' . $attchrecord['year'].'/' . str_pad($attchrecord['month'], 2, "0", STR_PAD_LEFT).'/thumb/' . $attchrecord['attname'];
             $sqlstatement=" update clients set picture='".$picture."' where id=".$clientid."";
             $sqlquery = $db->query($sqlstatement);
         }
